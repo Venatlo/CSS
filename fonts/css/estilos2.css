@@ -1,7 +1,8 @@
 * { font: 1em/1.3 Arial, Helvetica, sans-serif; }
 *  
 */* Todos los párrafos de la pagina */
-p { color: #555; }
+p { color: #FF9900; }
+h2{color: #FF9900}
  
 /* Solo los párrafos contenidos en #primero */
 #primero p { color: #336699; }
@@ -14,6 +15,7 @@ a { color: #CC3300; }
  
 /* Todos los elementos em de tipo especial en toda la pagina */
 em { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
+em.especial {color: crimson;border: 1px solid blue}
 
  
 /* Elementos span contenidos en .normal */
